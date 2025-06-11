@@ -1,7 +1,11 @@
 微信官方 js-sdk
 ----
 
-说明: 仅将官方 js-sdk 发布到 npm，支持 CommonJS，便于 browserify, webpack 等直接使用，支持 TypeScript。
+说明:
+
+原项目（https://github.com/yanxi123-com/weixin-js-sdk）没有继续更新，故单开一个新的自用仓库。
+
+仅将官方 js-sdk 发布到 npm，支持 CommonJS，便于 browserify, webpack 等直接使用，支持 TypeScript。
 
 
 官方 JS 源码: https://res.wx.qq.com/open/js/jweixin-1.6.0.js
@@ -10,26 +14,17 @@
 
 安装:
 ```shell
-npm install weixin-js-sdk
+npm install wechat-js-sdk
 ```
 
 使用:
 ```javascript
 // commonjs
-var wx = require('weixin-js-sdk');
+var wx = require('wechat-js-sdk');
 
 // es module
-import wx from 'weixin-js-sdk'
+import wx from 'wechat-js-sdk'
 ```
-
-### Old versions
-
-* [1.0.0](https://github.com/yanxi123-com/weixin-js-sdk/tree/1.0.0)
-* [1.2.0](https://github.com/yanxi123-com/weixin-js-sdk/tree/1.2.0)
-
-### 个人主页
-
-* [https://yanxi123.com/](https://yanxi123.com/)
 
 ### 感谢
 
